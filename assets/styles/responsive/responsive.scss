@@ -1,0 +1,210 @@
+@media (min-width: 1024px) and (max-width: 1239px) {
+    .shop-navigate__item {
+        text-align: center;
+    }
+    .footer-about-country__text {
+        justify-content: center;
+    }
+
+    .footer-about-country {
+        flex-direction: column;
+    }
+
+    .footer-about-country-name {
+        flex-wrap: wrap;
+    }
+
+    .footer-about-country-link {
+        border: none;
+        white-space: nowrap;
+    }
+
+    .footer-about-country-name {
+        justify-content: center;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 1024px) {
+    .nav-item__link {
+        white-space: nowrap;
+
+        &::after {
+            display: none;
+        }
+    }
+
+    .socical-box__link {
+        display: none;
+    }
+
+    .link-container {
+        > i {
+            display: none;
+        }
+    }
+
+    .language-container__icon-left {
+        display: none;
+    }
+
+    .nav-item__span-text,
+    .link-container,
+    .language-container__text,
+    .avatar-container__name {
+        white-space: nowrap;
+    }
+
+    .search-container__border {
+        display: none;
+    }
+
+    .logo-shoppe-mall {
+        display: none;
+    }
+
+    .container-shop-profile {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .shop-info {
+        padding-left: 0;
+    }
+
+    .shop-info-item {
+        justify-content: center;
+    }
+
+    .shop-navigate__item {
+        text-align: center;
+        > a {
+            font-size: 1.4rem;
+        }
+    }
+
+    .discount-code {
+        display: none;
+    }
+
+    .content-list-product {
+        flex-direction: column;
+    }
+
+    .right-column-list-product-menu {
+        display: none;
+    }
+
+    .product-filter__text {
+        display: none;
+    }
+
+    .content-list-product {
+        margin: 0;
+    }
+
+    .footer-about-country__text {
+        justify-content: center;
+    }
+
+    .footer-about-country {
+        flex-direction: column;
+    }
+
+    .footer-about-country-name {
+        flex-wrap: wrap;
+    }
+
+    .footer-about-country-link {
+        border: none;
+        white-space: nowrap;
+    }
+
+    .sub-footer-link {
+        text-align: center;
+    }
+
+    .container-shop-profile {
+        padding-top: 0;
+    }
+}
+
+@media (max-width: 739px) {
+    .responsive-menu-bar {
+        display: block;
+    }
+
+    .header-navigate {
+        display: none;
+    }
+
+    .content-list-product,
+    .footer-about {
+        padding: 0 10px;
+    }
+
+    .footer-about-country-name {
+        justify-content: center;
+    }
+
+    .shop-info {
+        display: block;
+    }
+
+    .shop-navigate__item {
+        > a {
+            font-size: 1.2rem;
+        }
+    }
+
+    .product-filter-action {
+        display: block;
+    }
+
+    .change-product-list {
+        margin-top: 10px;
+        justify-content: center;
+    }
+
+    .footer-about {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (max-width: 375px) {
+    .search-style__name,
+    .search-style,
+    .shop-navigate {
+        display: none;
+    }
+
+    .wrapper-search-history {
+        display: none;
+    }
+
+    .search-form-input__text {
+    }
+
+    .wrapper-notification-container {
+        display: none;
+    }
+
+    .shop-profile__background {
+        padding: 0 10px;
+    }
+
+    .filter-action-item {
+        font-size: 1.2rem;
+        text-align: center;
+    }
+
+    .product-navigate {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .product-navigate-next,
+    .product-navigate-prev {
+        margin: 0;
+    }
+}
