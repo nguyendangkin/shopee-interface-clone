@@ -18,7 +18,7 @@
     -   **styles**: Chứa các tệp SCSS và CSS.
         -   **base**: Các tệp CSS cơ bản.
         -   **main**: Các tệp CSS chính và các tệp SCSS tương ứng.
-    -   **responsive**: Các tệp CSS và SCSS cho thiết kế đáp ứng.
+    -   **responsive**: Các tệp CSS và SCSS cho thiết kế responsive.
 
 ## Cách chạy dự án
 
@@ -28,5 +28,5 @@
 ## Tính năng
 
 -   **Giao diện người dùng**: Tái tạo lại giao diện của Shopee với các thành phần như sản phẩm, đánh giá, và mã giảm giá.
--   **Thiết kế đáp ứng**: Trang web được thiết kế để hoạt động tốt trên các thiết bị có kích thước màn hình khác nhau.
+-   **Thiết kế responsive**: Trang web được thiết kế để hoạt động tốt trên các thiết bị có kích thước màn hình khác nhau.
 -   **Tương tác**: Sử dụng JavaScript để thêm các tính năng tương tác như modal và các hiệu ứng hover.
